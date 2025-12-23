@@ -5,10 +5,9 @@ from agno.models.google import Gemini  # Importa o modelo Gemini da Google
 from agno.db.sqlite import SqliteDb  # Importa o banco de dados SQLite para armazenamento
 from agno.knowledge.embedder.google import GeminiEmbedder  # Importa o embedder Gemini (não usado explicitamente, mas importado)
 from agno.tools.duckduckgo import DuckDuckGoTools  # Importa as ferramentas de busca do DuckDuckGo
-# Memória é configurada diretamente no Agent com memory_db
 
 
-from agno.vectordb.chroma import ChromaDb  # Importa a classe para banco de vetores ChromaDb (não utilizado diretamente abaixo)
+from agno.vectordb.chroma import ChromaDb  
 import os  # Importa o módulo os para interagir com o sistema operacional
 
 from dotenv import load_dotenv  # Importa a função para carregar variáveis de ambiente
@@ -41,3 +40,4 @@ discord_client = DiscordClient(agent)  # Inicializa o cliente Discord com o agen
 if __name__ == "__main__":  # Verifica se o script está sendo executado diretamente
     discord_client.serve()  # Inicia o serviço do cliente Discord para escutar e responder mensagens
 #agent.print_response(f"Send Hello World to channel {channel_id}") # Código comentado (exemplo de uso)
+
