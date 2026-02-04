@@ -44,7 +44,7 @@ O bot foi desenvolvido para ajudar usuários em canais de texto, respondendo dú
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/agno-discord.git
+git clone https://github.com/ErickGuimaraesFerreira/agno-discord.git
 cd agno-discord
 ```
 
@@ -153,3 +153,4 @@ Este projeto é distribuído para fins educacionais e de desenvolvimento.
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
